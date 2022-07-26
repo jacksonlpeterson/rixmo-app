@@ -2,6 +2,7 @@ import React from "react";
 import Card from 'react-bootstrap/Card';
 import { Button } from "react-bootstrap";
 import Stack from 'react-bootstrap/Stack';
+import  Link  from "react-router-dom";
 
 const Project = () => {
     return(
@@ -16,7 +17,7 @@ const Project = () => {
          </Stack>
         </Card.Text>
         <Button variant="outline-dark" style={{width: '100px', fontSize:'18px', margin:'20px', fontFamily:'poppins', fontWeight:'500'}}>Design</Button>
-        <Button variant="outline-dark" style={{width: '100px', fontSize:'18px', margin:'20px', fontFamily:'poppins', fontWeight:'500'}}>Publish</Button>
+        <Link to="/projectdesign"><Button variant="outline-dark" style={{width: '100px', fontSize:'18px', margin:'20px', fontFamily:'poppins', fontWeight:'500'}}>Publish</Button></Link>
       </Card.Body>
     </Card>
     )
