@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 const BackArrow = () =>{
     return (
-      <Link to='/' style={{color:'black'}}>
+    <Link to='/' style={{color:'black'}}>
           <i className="fa-solid fa-arrow-left"></i>
     </Link>
     )

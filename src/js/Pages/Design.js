@@ -7,10 +7,8 @@ const Design = () => {
     return(
         <div>
             <Header />
-            <h3 style={{marginLeft:"5%"}}>Current project <i class="fa-solid fa-circle-plus"></i></h3>
+            <h3 style={{marginLeft:"5%"}}>Current project <i className="fa-solid fa-circle-plus"></i></h3>
             <Stack direction="horizontal" gap={3}>
-                <Project />
-                <Project />
                 <Project />
              </Stack>
 
