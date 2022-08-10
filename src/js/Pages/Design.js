@@ -10,6 +10,8 @@ const Design = () => {
             <h3 style={{marginLeft:"5%"}}>Current project <i className="fa-solid fa-circle-plus"></i></h3>
             <Stack direction="horizontal" gap={3}>
                 <Project />
+                <Project />
+                <Project />
              </Stack>
 
         </div>
